@@ -1,0 +1,204 @@
+body {
+  background-color: #0477bf;
+  color: #333399;
+  font-family: Verdana, Arial, sans-serif;
+}
+header {
+  background-color: #abd904;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+h1 {
+  padding-top: 50px;
+  padding-left: 2em;
+  text-align: center;
+}
+nav {
+  text-align: center;
+  font-weight: bold;
+  padding: 1em;
+}
+footer {
+  background-color: #abd904;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  width: 1350px;
+}
+#fish {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+}
+#reels {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+}
+#boats {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+}
+#tackle {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: left;
+}
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+}
+.third {
+  text-align: right;
+  overflow: auto;
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+#mobile {
+  display: inline;
+}
+#desktop {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    padding-top: 1px;
+  }
+  h1 {
+    padding-top: 1em;
+  }
+  nav {
+    float: none;
+    width: auto;
+    padding-left: 2em;
+  }
+  nav a {
+    padding: 0.2em;
+    margin-left: 0.3em;
+    float: left;
+    width: 23%;
+  }
+  main {
+    padding: 2.5em 1em 2.5em 1em;
+    margin: 0;
+    font-size: 90%;
+    clear: both;
+  }
+  #hero {
+    width: 100%;
+    height: auto;
+  }
+  h2,
+  h3,
+  p,
+  dl {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  main ul {
+    margin-left: 2em;
+  }
+  .floatleft {
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .clear {
+    padding-left: 2em;
+  }
+}
+@media only all and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    padding-top: 0.25em;
+    padding-left: 1.5em;
+    width: 85%;
+    text-align: center;
+  }
+  nav a {
+    padding: 0.5em;
+    width: 45%;
+    float: left;
+    min-width: 6em;
+    margin-left: 0.5em;
+  }
+  main {
+    padding-top: 0;
+  }
+  .floatleft {
+    float: none;
+    display: none;
+  }
+  #hero {
+    display: none;
+  }
+  footer {
+    padding: 0.5em;
+    margin: 0;
+  }
+  #mobile {
+    display: inline;
+  }
+  #desktop {
+    display: none;
+  }
+}
+table {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #3f2860;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+td,
+th {
+  padding: 5px;
+  border: 1px solid #3f2860;
+}
+tr:nth-of-type(even) {
+  background-color: #9bc1c2;
+}
+caption {
+  margin: 1em;
+  font-weight: bold;
+  font-size: 120%;
+}
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  width: 10em;
+  padding-right: 1em;
+}
+input,
+textarea {
+  display: block;
+  margin-bottom: 2em;
+}
+#mySubmit {
+  margin: auto;
+}
+form {
+  padding: 3em;
+}
